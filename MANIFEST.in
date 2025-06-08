@@ -1,0 +1,31 @@
+include README.md
+include LICENSE
+include requirements.txt
+include pyproject.toml
+include setup.py
+include MANIFEST.in
+
+# Include all Python files in src
+recursive-include src *.py
+
+# Include test files
+recursive-include tests *.py
+
+# Exclude compiled Python files
+global-exclude *.pyc
+global-exclude __pycache__
+global-exclude *.pyo
+global-exclude *.pyd
+global-exclude .DS_Store
+global-exclude *.so
+
+# Exclude development and build artifacts
+exclude .coverage
+exclude coverage.xml
+exclude .pytest_cache
+exclude .mypy_cache
+exclude .ruff_cache
+exclude htmlcov
+exclude build
+exclude dist
+exclude *.egg-info 
