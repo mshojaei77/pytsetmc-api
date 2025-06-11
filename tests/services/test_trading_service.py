@@ -105,5 +105,5 @@ async def test_fetch_day_ob(trading_service):
     assert 'Day_UL' in df.columns
     assert df.iloc[0]['Day_UL'] == 105
 
-if __name__ == "__main__":
+if __name__ == "__main__": 
     pytest.main() 

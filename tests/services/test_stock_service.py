@@ -94,5 +94,5 @@ def test_parse_search_response_empty(stock_service):
     assert isinstance(df, pd.DataFrame)
     assert df.empty
 
-if __name__ == "__main__":
+if __name__ == "__main__": 
     pytest.main() 

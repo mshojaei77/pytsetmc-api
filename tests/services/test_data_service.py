@@ -102,5 +102,5 @@ def test_get_market_stocks(data_service):
     assert stocks[1]['Name'] == 'Stock B'
     assert stocks[1]['WEB-ID'] == '456'
 
-if __name__ == "__main__":
+if __name__ == "__main__": 
     pytest.main() 

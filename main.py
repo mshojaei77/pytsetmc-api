@@ -402,5 +402,5 @@ def main() -> None:
         print("\nCleaning up...")
 
 
-if __name__ == "__main__":
+if __name__ == "__main__": 
     main()

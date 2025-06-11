@@ -112,5 +112,5 @@ def test_format_price_data_with_options(price_service):
     assert formatted_df['Weekday'].iloc[0] == 'Thursday'
 
 
-if __name__ == "__main__":
+if __name__ == "__main__": 
     pytest.main() 

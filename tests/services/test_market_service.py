@@ -94,5 +94,5 @@ def test_get_market_watch_success(mock_make_request, market_service):
     # Check that OB data was parsed
     assert df_ob.iloc[0]['Buy-Price'] == 100
 
-if __name__ == "__main__":
+if __name__ == "__main__": 
     pytest.main() 

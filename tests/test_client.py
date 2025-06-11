@@ -173,5 +173,5 @@ def test_client_context_manager():
     with TSETMCClient() as client:
         assert isinstance(client, TSETMCClient)
 
-if __name__ == "__main__":
+if __name__ == "__main__": 
     pytest.main() 
