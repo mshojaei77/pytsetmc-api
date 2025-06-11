@@ -25,20 +25,20 @@ A robust Python client for Tehran Stock Exchange Market Center (TSETMC) data ret
 - Python 3.9 or higher
 - Windows/Linux/macOS compatible
 
-### Install with uv (Recommended)
+### Install latest (GitHub HEAD)
 
 ```bash
-# Install uv if you haven't already
-pip install uv
-
-# Install the package
-uv pip install -r requirements.txt
+# Development snapshot — requires git installed
+uv pip install "git+https://github.com/mshojaei77/pytsetmc-api.git@main"
+# or
+pip install "git+https://github.com/mshojaei77/pytsetmc-api.git@main"
 ```
 
-### Install with pip
+After installation you get the `pytsetmc` command-line tool:
 
 ```bash
-pip install -r requirements.txt
+pytsetmc --help             # list available commands
+pytsetmc search پترول       # quick stock search
 ```
 
 ### For Development
